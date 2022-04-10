@@ -7,8 +7,8 @@ export default [
         username: 'Joy(Inside Out)',
         imageUri: 'https://images.hdqwalls.com/wallpapers/joy-in-inside-out-movie-wide.jpg',
       },
-      numOfLikes: 123,
-      numOfComments: 12,
+      numOfLikes: 153,
+      numOfComments: 3,
     },
   
     {
@@ -19,8 +19,8 @@ export default [
         username: 'Sadness(Inside Out)',
         imageUri: 'https://static.wikia.nocookie.net/insideout/images/8/82/SADNESS_Fullbody_Render.png/revision/latest?cb=20150730192430',
       },
-      numOfLikes: 123,
-      numOfComments: 12,
+      numOfLikes: 12,
+      numOfComments: 2,
     },
   
     {
@@ -31,8 +31,8 @@ export default [
         username: 'Fear(Inside Out)',
         imageUri: 'https://www.disneypictures.net/data/media/299/inside_out_fear_profile.jpg',
       },
-      numOfLikes: 123,
-      numOfComments: 12,
+      numOfLikes: 5,
+      numOfComments: 1,
     },
   ]
   

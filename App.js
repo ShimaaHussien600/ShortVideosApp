@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import type {Node} from 'react';
 import {
   SafeAreaView,
@@ -17,16 +17,24 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import SplashScreen from 'react-native-splash-screen';
 import Home from './src/screens/Home';
+import LogIn from './src/screens/LogIn';
 
 
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
+  useEffect(() => {
+    SplashScreen.hide();
+  }, [])
+
   return (
     <SafeAreaView>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <Home/>
+      {/* <Home/> */}
+
+      <LogIn/>
     </SafeAreaView>
   );
 };
